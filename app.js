@@ -26,11 +26,10 @@ app.use(urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(join(dir, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/recipe', recipeRouter);
-app.use('/ingredient', ingredientRouter);
-app.use('/category', categoryRouter);
+app.use('/', new indexRouter().router);
+app.use('/recipe', new recipeRouter().router);
+app.use('/ingredient', new ingredientRouter().router);
+app.use('/category', new categoryRouter().router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

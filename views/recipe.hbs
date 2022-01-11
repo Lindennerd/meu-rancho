@@ -6,8 +6,16 @@
     <div>
         <label for="ingredients">Ingredientes</label>
         <select name="ingredients"></select>
-        <input type="text" name="ingredients-qtd">
-        <select name="ingredients-units"></select>
+
+        <label for="ingredients-qtd">Quantidade</label>
+        <input type="number" name="ingredients-qtd">
+
+        <select name="ingredients-units">
+            <option value="Kg">Kg</option>
+            <option value="g">g</option>
+            <option value="L">L</option>
+            <option value="Ml">Ml</option>
+        </select>
         <button id="add-ingredient">Adicionar Ingrediente</button>
         <a href="/ingredient">Novo Ingrediente</a>
     </div>
@@ -18,3 +26,6 @@
 
     <input type="submit" value="Salvar">
 </form>
+
+
+<script src="/javascripts/recipe.js"></script>

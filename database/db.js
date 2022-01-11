@@ -1,32 +1,35 @@
-import { Low, JSONFile } from 'lowdb';
+import jsonfile from 'jsonfile'
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url'
 
 class Database {
     constructor() {
         const dir = dirname(fileURLToPath(import.meta.url));
-        const file = join(dir, 'db.json');
-        const adapter = new JSONFile(file);
-        this.db = new Low(adapter);
-    
-        db.read();
-    
-        db.data ||= {};
+        this.file = join(dir, 'db.json');   
+        this.options = { spaces: 2 };
     }
 
-    async create(entity) {
-        var collection = entity.constructor.name;
-        if (!db.data[collection]) db.data[collection] = [];
-
-        db.data[collection].push(entity);
-        return await db.write();
+    async openDb() {
+        return await jsonfile.readFile(this.file);
     }
 
-    async get(entityName, filter) {
-        return await db.data
-        .get(entityName)
-        .find(filter || {})
-        .value();
+    async saveDb(db) {
+        return await jsonfile.writeFile(this.file, db, this.options);
+    }
+
+    async create(collection, entity) {
+        const db = await this.openDb();
+        if (!db[collection]) db[collection] = [];
+
+        db[collection].push(entity);
+        return await this.saveDb(db);
+    }
+
+    async get(collection, filter) {
+        const db = await this.openDb();
+        if (!db[collection]) return [];
+
+        return db[collection];
     }
 }
 

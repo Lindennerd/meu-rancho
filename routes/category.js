@@ -1,13 +1,18 @@
 import { Router } from 'express';
 import Category from '../lib/category.js';
-var router = Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    const category = new Category();
-    const categories = category.get();
+class CategoryRouter {
+    constructor() {
+        this.category = new Category();
+        this.router = Router();
 
-    res.send(categories);
-});
+        this.router.get('/', this.getCategories.bind(this));
+    }
 
-export default router;
+    async getCategories(req, res, next) {
+        const categories = await this.category.get();
+        res.send(categories);
+    }
+}
+
+export default CategoryRouter;

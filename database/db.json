@@ -1,0 +1,572 @@
+{
+  "products": [
+    {
+      "product": "Café",
+      "category": "Padaria"
+    },
+    {
+      "product": "Biscoito",
+      "category": "Padaria"
+    },
+    {
+      "product": "Cereais",
+      "category": "Padaria"
+    },
+    {
+      "product": "Achocolatado",
+      "category": "Padaria"
+    },
+    {
+      "product": "Chá",
+      "category": "Padaria"
+    },
+    {
+      "product": "Adoçante",
+      "category": "Padaria"
+    },
+    {
+      "product": "Açúcar",
+      "category": "Padaria"
+    },
+    {
+      "product": "Geleia",
+      "category": "Padaria"
+    },
+    {
+      "product": "Torrada",
+      "category": "Padaria"
+    },
+    {
+      "product": "Pão",
+      "category": "Padaria"
+    },
+    {
+      "product": "Requeijão",
+      "category": "Padaria"
+    },
+    {
+      "product": "Manteiga",
+      "category": "Padaria"
+    },
+    {
+      "product": "Iogurte",
+      "category": "Padaria"
+    },
+    {
+      "product": "Bolo",
+      "category": "Padaria"
+    },
+    {
+      "product": "Arroz",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Feijão",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Aveia em flocos",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Caldo de carne",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Gelatina",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Macarrão instantâneo",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Farinha de trigo",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Barra de cereal",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Fubá",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Grão de bico",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Palmito",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Ervilha",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Milho",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Farinha de milho",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Farinha de rosca",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Fermento",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Óleo",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Azeite",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Amido de milho",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Macarrão",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Azeitona",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Leite condensado",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Gelatina",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Maionese",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Catchup e mostarda",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Tempero pronto",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Sal",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Ovos",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Queijo ralado",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Leite condensado",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Vinagre",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Molho de tomate",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Atum",
+      "category": "Mercearia"
+    },
+    {
+      "product": "Água",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Leite",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Refrigerante",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Cerveja",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Suco",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Energético",
+      "category": "Bebidas"
+    },
+    {
+      "product": "Bife bovino",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Bisteca suína",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Carne moída",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Coxa e sobrecoxa de frango",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Filé de frango",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Linguiça",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Salsicha",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Nuggets",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Queijo branco",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Presunto",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Mussarela",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Peixe",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Hambúrguer",
+      "category": "Carnes e Frios"
+    },
+    {
+      "product": "Papel higiênico",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Detergente",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Sabão em pó",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Sabão em barra",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Água sanitária",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Desinfetante",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Lustra-móveis",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Saco de lixo",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Papel toalha",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Álcool",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Amaciante",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Pano de chão",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Esponja",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Palha de aço",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Multiuso",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Filme plástico",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Papel Alumínio",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Fósforo",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Filtros de papel",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Palitos de dente",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Velas",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Rodo/vassoura",
+      "category": "Limpeza"
+    },
+    {
+      "product": "Papel higiênico",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Sabonete",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Creme dental",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Escova de dente",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Hastes flexíveis",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Fio dental",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Absorvente",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Shampoo",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Condicionador",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Acetona",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Algodão",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Lâmina de barbear",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Desodorante",
+      "category": "Higiene Pessoal"
+    },
+    {
+      "product": "Abacaxi",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Laranja",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Banana",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Limão",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Mamão",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Maçã",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Melão",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Melancia",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Abóbora",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Abobrinha",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Batata",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Tomate",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Cebola",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Alho",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Cenoura",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Pepino",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Beterraba",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Vagem",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Berinjela",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Chuchu",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Alface",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Brócolis",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Rúcula",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Cheiro-verde",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Couve-flor",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Mandioca",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Batata doce",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Hortelã",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Maracujá",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Quiabo",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Repolho",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Pepinos",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Uvas",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Morango",
+      "category": "Frutas e Legumes"
+    },
+    {
+      "product": "Ração",
+      "category": "Pet"
+    },
+    {
+      "product": "Petiscos",
+      "category": "Pet"
+    },
+    {
+      "product": "Tapete higiênico",
+      "category": "Pet"
+    },
+    {
+      "product": "dsads",
+      "category": "Padaria"
+    },
+    {
+      "product": "sadsd",
+      "category": "Padaria"
+    },
+    {
+      "product": "sadsd",
+      "category": "Padaria"
+    },
+    {
+      "product": "dsfdfs",
+      "category": "Padaria"
+    }
+  ]
+}

@@ -1,9 +1,14 @@
 import { Router } from 'express';
-var router = Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+class IndexRouter {
+  constructor() {
+    this.router = Router();
+    this.router.get('/', this.homeRoute);
+  }
 
-export default router;
+  homeRoute(req, res, next) {
+    res.render('index', { title: 'Express' });
+  }
+}
+
+export default IndexRouter
