@@ -1,0 +1,22 @@
+<form name="new-recipe">
+    <div>
+        <label for="title">Nome</label>
+        <input type="text" name="title">
+    </div>
+    <div>
+        <label for="ingredients">Ingredientes</label>
+        <select name="ingredients"></select>
+        <input type="text" name="ingredients-qtd">
+        <select name="ingredients-units"></select>
+        <button id="add-ingredient">Adicionar Ingrediente</button>
+        <button id="new-ingredient">
+            <a href="/ingredient">Novo Ingrediente</a>
+        </button>
+    </div>
+    <div>
+        <label for="preparation">Preparo</label>
+        <textarea name="preparation" cols="30" rows="10"></textarea>
+    </div>
+
+    <input type="submit" value="Salvar">
+</form>
